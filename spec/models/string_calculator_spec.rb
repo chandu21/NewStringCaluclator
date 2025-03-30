@@ -8,4 +8,8 @@ RSpec.describe StringCalculator, type: :model do
   it 'returns sum of numbers separated by commas' do
     expect(StringCalculator.add("1,2")).to eq(3)
   end
+
+  it 'handles newlines as delimiters' do
+    expect(StringCalculator.add("1\n2,3")).to eq(6)
+  end
 end
