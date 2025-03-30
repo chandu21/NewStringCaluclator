@@ -1,0 +1,3 @@
+class StringCalculator < ApplicationRecord
+  
+end
