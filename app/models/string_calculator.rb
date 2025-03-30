@@ -1,5 +1,5 @@
 class StringCalculator < ApplicationRecord
   def self.add(numbers)
-  	return 0
+  	return 1
   end
 end
